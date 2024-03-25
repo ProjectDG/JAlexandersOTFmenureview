@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch('data.json')
     .then(response => response.json())
     .then(data => {
-      questions = data.filter(question => question.type !== 'lastQuestion'); // Exclude lastQuestion from randomization
+      questions = data.filter(question => question.question.trim() !== ''); // Exclude empty questions
 
       function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return array;
       }
 
-      questions = shuffleArray(questions); // Randomize questions except lastQuestion
+      questions = shuffleArray(questions); // Randomize questions
 
       function showQuestion(questionIndex) {
         const question = questions[questionIndex];
@@ -93,12 +93,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
       function nextQuestion() {
         currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length - 1) {
+        if (currentQuestionIndex < questions.length) {
           showQuestion(currentQuestionIndex);
-        } else if (currentQuestionIndex === questions.length - 1) {
-          showFinishButton();
         } else {
-          showResults();
+          showFinishButton();
         }
       }
 
@@ -132,26 +130,28 @@ document.addEventListener('DOMContentLoaded', function () {
       function showResults() {
         resultContainer.style.display = 'block'; // Show the results container
         questionContainer.style.display = 'none'; // Hide the question container
-        resultContainer.innerHTML = '';
-        resultContainer.innerHTML += '<h2>Results:</h2>';
+        resultContainer.innerHTML = '<h2>Results:</h2>';
         incorrectQuestions.forEach(question => {
           resultContainer.innerHTML += `<div id="resultQuestion">${question.question}:</div>`;
           if (Array.isArray(question.correct_answers)) {
-            resultContainer.innerHTML += '<ul id="resultAnswer">';
+            resultContainer.innerHTML += `<ul id="resultAnswer-${question.name}">`;
             question.correct_answers.forEach(answer => {
-              resultContainer.innerHTML += `<li style="font-size: 1.5vh; list-style: none;">${answer}</li>`;
+              resultContainer.innerHTML += `<li>${answer}</li>`;
             });
-            resultContainer.innerHTML += '</ul>';
+            resultContainer.innerHTML += '</ul>'; // Close the <ul> after all <li> items are added
           } else {
             resultContainer.innerHTML += `<div id="resultAnswer">${question.correct_answers}</div>`;
           }
         });
+        resultContainer.innerHTML += `<hr>`;
         resultContainer.innerHTML += `<div>Total Questions: ${questions.length}</div>`;
         resultContainer.innerHTML += `<div>Correct Answers: ${questions.length - incorrectQuestions.length}</div>`;
         resultContainer.innerHTML += `<div>Incorrect Answers: ${incorrectQuestions.length}</div>`;
         resultContainer.innerHTML += '<button id="retake-btn">Retake Test</button>';
         document.getElementById('retake-btn').addEventListener('click', retakeTest);
       }
+      
+      
 
       function retakeTest() {
         resultContainer.style.display = 'none'; // Hide the results container
@@ -174,4 +174,3 @@ document.addEventListener('DOMContentLoaded', function () {
       showQuestion(currentQuestionIndex);
     });
 });
-
