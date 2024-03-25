@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -14,10 +14,14 @@
   height: 97vh;
 }
 
-#logo {
-  position: fixed;
-  top: 6%;
-  width: 90%;
+#logoDiv {
+  width: fit-content;
+  padding: 2vh;
+  margin: 3vh auto;
+}
+
+#logo{
+  width: 90vw;
 }
 
 ul {
@@ -39,7 +43,7 @@ ul {
 #question-container {
   display: block;
   text-align: center;
-  max-width: 90%;
+  max-width: 80vw;
   background-color: rgba(230, 230, 230, 0.8);
   padding: 4vh 3vh;
   border: 4px outset rgb(122, 113, 113);
@@ -109,7 +113,7 @@ button:hover {
 .modal-content {
   display: flex;
   position: relative;
-  top: 40%;
+  top: 30%;
   width: fit-content;
   min-height: 10vh;
   margin: auto;
@@ -133,9 +137,17 @@ button:hover {
 
 #result-container {
   display: none; /* Hide the results container by default */
+  background-color: rgba(230, 230, 230, 0.8);
+  border: 4px outset rgb(122, 113, 113);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   max-height: 60%;
   overflow: scroll;
+}
+
+hr{
+  border: 1px solid black;
+  margin: 3vh;
 }
 
 #result-container h2{
@@ -152,6 +164,7 @@ button:hover {
 #result-container div{
   font-size: 1.5vh;
   margin: 1vh;
+  padding: 0% 2vh;
 }
 
 #resultQuestion{
@@ -187,7 +200,7 @@ button:hover {
 }
 
 #retake-btn {
-  margin: 2vh .5vh;
+  margin: 3vh;
 }
 
 } 

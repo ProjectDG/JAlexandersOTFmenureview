@@ -42,27 +42,21 @@
     },
     {
         "name": "question5",
-        "question": "Is this finally going to work?",
-        "correct_answers": "True",
-        "type": "boolean"
-    },
-    {
-        "name": "question6",
-        "question": "What starters do we offer?",
+        "question": "What salads do we offer?",
         "correct_answers": [
-            "Avocado Bomb",
-            "Crispy Calamari",
-            "Giuseppe's Meatballs",
-            "Fire-Grilled Artichokes",
-            "Shrimp Cocktail",
-            "Spinach con Queso"
+            "Alex's Salad",
+            "Original Caesar Salad",
+            "The Wedge",
+            "Cypress Salad",
+            "Paradise Coast Kale Salad",
+            "Asian Ahi Tuna Salad",
+            "Thai Kai Salad"
         ],
         "wrong_answers": [
-            "Stuffed Mushrooms",
-            "Buffalo Wings",
-            "Jalapeno Poppers"
+            "The Garden Salad",
+            "Italian Garden Salad",
+            "Tropical Fruit Salad"
         ],
         "type": "select multiple"
     }
   ]
-  

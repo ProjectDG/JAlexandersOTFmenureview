@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
         questionContainer.style.display = 'none'; // Hide the question container
         resultContainer.innerHTML = '<h2>Results:</h2>';
         incorrectQuestions.forEach(question => {
-          resultContainer.innerHTML += `<div id="resultQuestion">${question.question}:</div>`;
+          resultContainer.innerHTML += `<div style="margin: 3vh 0 1vh 0" id="resultQuestion">${question.question}:</div>`;
           if (Array.isArray(question.correct_answers)) {
             resultContainer.innerHTML += `<ul id="resultAnswer-${question.name}">`;
             question.correct_answers.forEach(answer => {
