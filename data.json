@@ -1,0 +1,47 @@
+[
+    {
+        "name": "question1",
+        "question": "What starters do we offer?",
+        "correct_answers": [
+            "Avocado Bomb",
+            "Calamari",
+            "Meatballs",
+            "more stuff"
+        ],
+        "wrong_answers": [
+            "Nachos",
+            "Fries",
+            "less stuff"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question2",
+        "question": "Do we use the phrase 'Heard'?",
+        "correct_answers": "False",
+        "type": "boolean"
+    },
+    {
+        "name": "question3",
+        "question": "How much tuna do you get with the 'Ahi Tuna' dish?",
+        "correct_answers": "8 to 9 ounces",
+        "wrong_answers": [
+            "6 to 7 ounces",
+            "10 to 11 ounces",
+            "12 to 13 ounces"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question4",
+        "question": "Do we use the phrase 'A.O.A.'?",
+        "correct_answers": "True",
+        "type": "boolean"
+    },
+    {
+        "name": "lastQuestion",
+        "question": "",
+        "answers": "",
+        "type": ""
+    }
+]

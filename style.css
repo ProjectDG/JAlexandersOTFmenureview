@@ -1,0 +1,387 @@
+@media screen and (orientation:portrait) {
+  
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./images/background.png");
+  background-size: 105% 120%;
+  height: 97vh;
+}
+
+#logo {
+  position: fixed;
+  top: 6%;
+  width: 90%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.container {
+  display: block;
+  max-width: fit-content;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-container {
+  display: block;
+  text-align: center;
+  max-width: 90%;
+  background-color: rgba(230, 230, 230, 0.8);
+  padding: 4vh 3vh;
+  border: 4px outset rgb(122, 113, 113);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 2.5vh;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options{
+  margin: 5vh auto;
+  width: fit-content;
+  text-align: left;
+}
+
+.options input {
+  width: 50px;
+  height: 50px;
+  margin-right: 3vw;
+}
+
+.options label {
+  display: block;
+  margin: 2vh;
+  font-size: 2vh;
+}
+
+button {
+  padding: 3vw;
+  margin: 1vh auto 0 auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 5vh;
+  width: fit-content;
+  font-size: 1.75vh;
+}
+
+/* #submit-btn{
+  margin: auto;
+} */
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  position: relative;
+  top: 40%;
+  width: fit-content;
+  min-height: 10vh;
+  margin: auto;
+  background-color: #fff;
+  padding: 2vh;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close{
+  cursor: pointer;
+  font-size: 2vh;
+}
+
+#modal-text{
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+#result-container {
+  display: none; /* Hide the results container by default */
+  text-align: center;
+}
+
+#result-container h2{
+  font-size: 3vh;
+  margin: 0%;
+  padding: 2vh .5vh;
+}
+
+#result-container div{
+  font-size: 1.5vh;
+  margin: 1vh;
+}
+
+#resultQuestion{
+  font-weight: bolder;
+  font-size: 2vh;
+}
+
+.modal-title {
+  font-size: 3vh;
+  margin-bottom: 10px;
+}
+
+.modal-subtitle {
+  font-size: 2vh;
+  margin-bottom: 10px;
+}
+
+.modal-answers {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.modal-answers li {
+  margin: 2vh;
+  text-align: center;
+  font-size: 1.5vh;
+}
+
+.results-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* .results-item {
+  margin-bottom: 5px;
+} */
+
+#retake-btn {
+  margin: 2vh .5vh;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("./images/background.png");
+  background-size: 105% 120%;
+  height: 97vh;
+}
+
+#logo {
+  position: fixed;
+  top: 6%;
+  width: 90%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.container {
+  display: block;
+  max-width: fit-content;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question-container {
+  display: block;
+  text-align: center;
+  max-width: 90%;
+  background-color: rgba(230, 230, 230, 0.8);
+  padding: 4vh 3vh;
+  border: 4px outset rgb(122, 113, 113);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 2.5vh;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options{
+  margin: 5vh auto;
+  width: fit-content;
+  text-align: left;
+}
+
+.options input {
+  width: 50px;
+  height: 50px;
+  margin-right: 3vw;
+}
+
+.options label {
+  display: block;
+  margin: 2vh;
+  font-size: 2vh;
+}
+
+button {
+  padding: 3vw;
+  margin: 1vh auto 0 auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 5vh;
+  width: fit-content;
+  font-size: 1.75vh;
+}
+
+/* #submit-btn{
+  margin: auto;
+} */
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  position: relative;
+  top: 40%;
+  width: fit-content;
+  min-height: 10vh;
+  margin: auto;
+  background-color: #fff;
+  padding: 2vh;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close{
+  cursor: pointer;
+  font-size: 2vh;
+}
+
+#modal-text{
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+#result-container {
+  display: none; /* Hide the results container by default */
+  text-align: center;
+}
+
+#result-container h2{
+  font-size: 3vh;
+  margin: 0%;
+  padding: 2vh .5vh;
+}
+
+#result-container div{
+  font-size: 1.5vh;
+  margin: 1vh;
+}
+
+#resultQuestion{
+  font-weight: bolder;
+  font-size: 2vh;
+}
+
+/* #resultAnswer li{
+  list-style: none;
+} */
+
+.modal-title {
+  font-size: 3vh;
+  margin-bottom: 10px;
+}
+
+.modal-subtitle {
+  font-size: 2vh;
+  margin-bottom: 10px;
+}
+
+.modal-answers {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.modal-answers li {
+  margin: 2vh;
+  text-align: center;
+  font-size: 1.5vh;
+}
+
+.results-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* .results-item {
+  margin-bottom: 5px;
+} */
+
+#retake-btn {
+  margin: 2vh .5vh;
+}
+
+}
+  
+@media screen and (orientation:landscape) {
+  body{
+    display: none;
+  }
+}
