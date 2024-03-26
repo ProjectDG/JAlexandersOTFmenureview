@@ -1,47 +1,41 @@
 [
     {
-      "name": "question1",
-      "question": "What starters do we offer?",
-      "correct_answers": [
-        "Avocado Bomb",
-        "Crispy Calamari",
-        "Giuseppe's Meatballs",
-        "Fire-Grilled Artichokes",
-        "Shrimp Cocktail",
-        "Spinach con Queso"
-      ],
-      "wrong_answers": [
-        "Stuffed Mushrooms",
-        "Buffalo Wings",
-        "Jalapeno Poppers"
-      ],
-      "type": "select multiple"
+        "name": "question1",
+        "question": "What starters do we offer?",
+        "correct_answers": [
+            "Avocado Bomb",
+            "Crispy Calamari",
+            "Giuseppe's Meatballs",
+            "Fire-Grilled Artichokes",
+            "Shrimp Cocktail",
+            "Spinach con Queso"
+        ],
+        "wrong_answers": [
+            "Stuffed Mushrooms",
+            "Buffalo Wings",
+            "Jalapeno Poppers",
+            "Onion Rings",
+            "Fried Mozzarella",
+            "Chicken Tenders"
+        ],
+        "type": "select multiple"
     },
     {
-      "name": "question2",
-      "question": "Do we use the phrase 'Heard'?",
-      "correct_answers": "False",
-      "type": "boolean"
+        "name": "question2",
+        "question": "How much tuna do you get with the 'Ahi Tuna' dish?",
+        "correct_answers": "8 to 9 ounces",
+        "wrong_answers": [
+            "6 to 7 ounces",
+            "10 to 11 ounces",
+            "12 to 13 ounces",
+            "14 to 15 ounces",
+            "16 to 17 ounces",
+            "18 to 19 ounces"
+        ],
+        "type": "multiple choice"
     },
     {
-      "name": "question3",
-      "question": "How much tuna do you get with the 'Ahi Tuna' dish?",
-      "correct_answers": "8 to 9 ounces",
-      "wrong_answers": [
-        "6 to 7 ounces",
-        "10 to 11 ounces",
-        "12 to 13 ounces"
-      ],
-      "type": "multiple choice"
-    },
-    {
-      "name": "question4",
-      "question": "Do we use the phrase 'A.O.A.'?",
-      "correct_answers": "True",
-      "type": "boolean"
-    },
-    {
-        "name": "question5",
+        "name": "question3",
         "question": "What salads do we offer?",
         "correct_answers": [
             "Alex's Salad",
@@ -53,10 +47,198 @@
             "Thai Kai Salad"
         ],
         "wrong_answers": [
-            "The Garden Salad",
-            "Italian Garden Salad",
-            "Tropical Fruit Salad"
+            "Chicken Caesar Salad",
+            "Greek Salad",
+            "Cobb Salad",
+            "Nicoise Salad",
+            "Waldorf Salad",
+            "Caprese Salad"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question4",
+        "question": "What are the in-house made salad dressings?",
+        "correct_answers": [
+            "Honey Dijon",
+            "Creamy Bleu Cheese",
+            "Classic Ranch",
+            "Kiawah Island",
+            "Vinaigrette",
+            "Cilantro Vinaigrette"
+        ],
+        "wrong_answers": [
+            "Thousand Island",
+            "Caesar Dressing",
+            "Balsamic Vinaigrette",
+            "Raspberry Vinaigrette",
+            "Asian Sesame Dressing",
+            "Garlic Parmesan Dressing"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question5",
+        "question": "What sandwiches do we offer?",
+        "correct_answers": [
+            "Veggie Burger",
+            "Old Fashioned Cheeseburger",
+            "French Dip",
+            "Crispy Chicken Sandwich",
+            "Lobster Roll"
+        ],
+        "wrong_answers": [
+            "BLT Sandwich",
+            "Turkey Club",
+            "Grilled Cheese",
+            "Philly Cheesesteak",
+            "Pulled Pork Sandwich",
+            "Reuben Sandwich"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question6",
+        "question": "What are the available sides?",
+        "correct_answers": [
+            "French Fries",
+            "Southern Cole Slaw",
+            "Broccoli with Lemon and Reggiano",
+            "Orzo & Wild Rice",
+            "Couscous",
+            "Smashed Red Potatoes",
+            "Loaded Baked Potato",
+            "Not Your Ordinary Mac & Cheese",
+            "Asparagus"
+        ],
+        "wrong_answers": [
+            "Mashed Potatoes",
+            "Green Beans",
+            "Caesar Salad",
+            "Onion Rings",
+            "Sweet Potato Fries",
+            "Quinoa Salad"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question7",
+        "question": "What is the dressing for the Asian Ahi Tuna Salad?",
+        "correct_answers": "Cilantro Vinaigrette",
+        "wrong_answers": [
+            "Honey Dijon",
+            "Creamy Bleu Cheese",
+            "Classic Ranch",
+            "Thousand Island",
+            "Caesar Dressing"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question8",
+        "question": "What is the topping for the Lobster Roll?",
+        "correct_answers": "Lemon Aioli",
+        "wrong_answers": [
+            "Spicy Mayo",
+            "Tartar Sauce",
+            "Garlic Aioli",
+            "Chipotle Aioli",
+            "Mustard Sauce"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question9",
+        "question": "What is the side dish for the Oven Roasted Chicken?",
+        "correct_answers": "Smashed Red Potatoes",
+        "wrong_answers": [
+            "French Fries",
+            "Couscous",
+            "Asparagus",
+            "Loaded Baked Potato",
+            "Not Your Ordinary Mac & Cheese"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question10",
+        "question": "What starters are served with Pico de gallo and tortilla chips?",
+        "correct_answers": [
+            "Spinach con Queso"
+        ],
+        "wrong_answers": [
+            "Fire-Grilled Artichokes",
+            "Giuseppe's Meatballs",
+            "Crispy Calamari",
+            "Shrimp Cocktail",
+            "Avocado Bomb"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question11",
+        "question": "Which starter has limited availability and is served with Rémoulade?",
+        "correct_answers": [
+            "Fire-Grilled Artichokes"
+        ],
+        "wrong_answers": [
+            "Spinach con Queso",
+            "Giuseppe's Meatballs",
+            "Crispy Calamari",
+            "Shrimp Cocktail",
+            "Avocado Bomb"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question12",
+        "question": "What is included in Giuseppe's Meatballs?",
+        "correct_answers": [
+            "Homemade Fennel sausage",
+            "parmesan",
+            "classic marinara"
+        ],
+        "wrong_answers": [
+            "Ground beef",
+            "Mozzarella cheese",
+            "Alfredo sauce",
+            "Barbecue sauce",
+            "Mushrooms"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question13",
+        "question": "What is served with the Avocado Bomb, besides hand-cut Hawaiian tuna?",
+        "correct_answers": [
+            "Crispy wontons"
+        ],
+        "wrong_answers": [
+            "Pico de gallo and tortilla chips",
+            "Rémoulade",
+            "Homemade Fennel sausage",
+            "Classic marinara",
+            "Cocktail sauce"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question14",
+        "question": "What ingredients are in Alex's Salad?",
+        "correct_answers": [
+            "Bacon",
+            "Cheese",
+            "Tomatoes",
+            "Cucumbers",
+            "Rustic croutons"
+        ],
+        "wrong_answers": [
+            "Olives",
+            "Cranberries",
+            "Avocado",
+            "Peanuts"
         ],
         "type": "select multiple"
     }
-  ]
+    
+]

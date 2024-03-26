@@ -17,7 +17,7 @@
 #logoDiv {
   width: fit-content;
   padding: 2vh;
-  margin: 3vh auto;
+  margin: 3vh auto 1vh auto;
 }
 
 #logo{
@@ -141,7 +141,7 @@ button:hover {
   border: 4px outset rgb(122, 113, 113);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-height: 60%;
+  max-height: 68%;
   overflow: scroll;
 }
 
@@ -212,6 +212,19 @@ hr{
   
 @media screen and (orientation:landscape) {
   body{
+    background-image: url("./images/backgroundLandscape.png");
+  }
+
+  #question-container{
     display: none;
   }
+
+  #logoDiv{
+    display: none;
+  }
+
+  #modal-container{
+    display: none;
+  }
+
 }
