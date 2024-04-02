@@ -648,7 +648,7 @@
     },
     {
         "name": "question36",
-        "question": "What side comes with the Grilled Trout Almadine?",
+        "question": "What sides comes with the Grilled Trout Almadine?",
         "correct_answers":
         [
             "Broccoli",
@@ -663,6 +663,269 @@
             "Rippened Tomatoes",
             "Southern Cole Slaw"
         ],
-        "type": "multiple choice"
+        "type": "select multiple"
+    },
+    {
+        "name": "question37",
+        "question": "What sides comes with the Crab Cakes?",
+        "correct_answers":
+        [
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce"
+        ],
+        "wrong_answers": [
+            "Broccoli",
+            "Couscous",
+            "Asparagus",
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes",
+            "Southern Cole Slaw"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question38",
+        "question": "What sides comes with the Blackened Snapper?",
+        "correct_answers":
+        [
+            "Couscous",
+            "Asparagus"
+        ],
+        "wrong_answers": [
+            "Broccoli",
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes",
+            "Southern Cole Slaw",
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question39",
+        "question": "What sides comes with the Seared Ahi Tuna?",
+        "correct_answers":
+        [
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes"
+        ],
+        "wrong_answers": [
+            "Broccoli",
+            "Couscous",
+            "Asparagus",
+            "Southern Cole Slaw",
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question40",
+        "question": "What sides comes with the Cilantro Shrimp?",
+        "correct_answers":
+        [
+            "Southern Cole Slaw",
+            "Couscous"
+        ],
+        "wrong_answers": [
+            "Broccoli",
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes",
+            "Asparagus",
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question41",
+        "question": "What side comes with the Grilled Salmon?",
+        "correct_answers":
+        [
+            "Asparagus"
+        ],
+        "wrong_answers": [
+            "Broccoli",
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes",
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Southern Cole Slaw",
+            "Couscous"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question42",
+        "question": "What side comes with Mr. Jack's Crispy Chicken Platter?",
+        "correct_answers":
+        [
+            "French Fries",
+            "Southern Cole Slaw"
+        ],
+        "wrong_answers": [
+            "Asparagus",
+            "Broccoli",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Smashed Red Potatoes",
+            "Couscous"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question43",
+        "question": "What side comes with the Roasted Pork Chop?",
+        "correct_answers":
+        [
+            "Smashed Red Potatoes",
+            "Broccoli"
+        ],
+        "wrong_answers": [
+            "French Fries",
+            "Southern Cole Slaw",
+            "Asparagus",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Couscous"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question44",
+        "question": "What side comes with the BBQ Baby Back Ribs?",
+        "correct_answers":
+        [
+            "Southern Cole Slaw",
+            "French Fries"
+        ],
+        "wrong_answers": [
+            "Smashed Red Potatoes",
+            "Broccoli",
+            "Asparagus",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Couscous"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question45",
+        "question": "What side comes with the Brasserie Chicken?",
+        "correct_answers":
+        [
+            "Smashed Red Potatoes",
+            "Broccoli"
+        ],
+        "wrong_answers": [
+            "Asparagus",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Couscous",
+            "Southern Cole Slaw",
+            "French Fries"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question46",
+        "question": "What side comes with the Tuscan Chicken?",
+        "correct_answers":
+        [
+            "Asparagus",
+            "Couscous"
+        ],
+        "wrong_answers": [
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Southern Cole Slaw",
+            "French Fries",
+            "Smashed Red Potatoes",
+            "Broccoli"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question47",
+        "question": "What deserts do we offer?",
+        "correct_answers":
+        [
+            "Carrot Cake",
+            "Very Best Chocolate Cake",
+            "Key Lime Pie"
+        ],
+        "wrong_answers": [
+            "Apple Pie",
+            "Chocolate Souffle",
+            "Tiramisu",
+            "Raspberry Sorbet"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question48",
+        "question": "What drafts do we offer?",
+        "correct_answers":
+        [
+            "Modelo Especial",
+            "Stella Artois",
+            "Riptide",
+            "Spacedust IPA",
+            "Turtle Season IPA"
+        ],
+        "wrong_answers": [
+            "Heineken",
+            "Budweiser",
+            "Coors Light",
+            "Guinness",
+            "Blue Moon"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question49",
+        "question": "What Hand Crafted Cocktails do we offer on our menu?",
+        "correct_answers":
+        [
+            "Midnight Margarita",
+            "Aperol Spritz",
+            "Sparkling Paloma",
+            "Kentucky Old Fashioned",
+            "The Matador"
+        ],
+        "wrong_answers": [
+            "Mojito",
+            "Cosmopolitan",
+            "Martini",
+            "Moscow Mule",
+            "Whiskey Sour"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question50",
+        "question": "What Hand Crafted Martinis do we offer on our menu?",
+        "correct_answers":
+        [
+            "The Duke",
+            "'21' Manhattan",
+            "Pear Martini",
+            "Red-Headed Rita Martini",
+            "Espresso Martini"
+        ],
+        "wrong_answers": [
+            "Gibson Martini",
+            "Lemon Drop Martini",
+            "Chocolate Martini",
+            "Blueberry Martini",
+            "French Martini"
+        ],
+        "type": "select multiple"
     }
+
 ]
