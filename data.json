@@ -648,7 +648,7 @@
     },
     {
         "name": "question36",
-        "question": "What sides comes with the Grilled Trout Almadine?",
+        "question": "What sides come with the Grilled Trout Almadine?",
         "correct_answers":
         [
             "Broccoli",
@@ -667,7 +667,7 @@
     },
     {
         "name": "question37",
-        "question": "What sides comes with the Crab Cakes?",
+        "question": "What sides come with the Crab Cakes?",
         "correct_answers":
         [
             "French Fries",
@@ -686,7 +686,7 @@
     },
     {
         "name": "question38",
-        "question": "What sides comes with the Blackened Snapper?",
+        "question": "What sides come with the Blackened Snapper?",
         "correct_answers":
         [
             "Couscous",
@@ -705,7 +705,7 @@
     },
     {
         "name": "question39",
-        "question": "What sides comes with the Seared Ahi Tuna?",
+        "question": "What sides come with the Seared Ahi Tuna?",
         "correct_answers":
         [
             "Orzo & Wild Rice",
@@ -724,7 +724,7 @@
     },
     {
         "name": "question40",
-        "question": "What sides comes with the Cilantro Shrimp?",
+        "question": "What sides come with the Cilantro Shrimp?",
         "correct_answers":
         [
             "Southern Cole Slaw",
@@ -762,7 +762,7 @@
     },
     {
         "name": "question42",
-        "question": "What side comes with Mr. Jack's Crispy Chicken Platter?",
+        "question": "What sides come with Mr. Jack's Crispy Chicken Platter?",
         "correct_answers":
         [
             "French Fries",
@@ -780,7 +780,7 @@
     },
     {
         "name": "question43",
-        "question": "What side comes with the Roasted Pork Chop?",
+        "question": "What sides come with the Roasted Pork Chop?",
         "correct_answers":
         [
             "Smashed Red Potatoes",
@@ -798,7 +798,7 @@
     },
     {
         "name": "question44",
-        "question": "What side comes with the BBQ Baby Back Ribs?",
+        "question": "What sides come with the BBQ Baby Back Ribs?",
         "correct_answers":
         [
             "Southern Cole Slaw",
@@ -816,7 +816,7 @@
     },
     {
         "name": "question45",
-        "question": "What side comes with the Brasserie Chicken?",
+        "question": "What sides come with the Brasserie Chicken?",
         "correct_answers":
         [
             "Smashed Red Potatoes",
@@ -834,7 +834,7 @@
     },
     {
         "name": "question46",
-        "question": "What side comes with the Tuscan Chicken?",
+        "question": "What sides come with the Tuscan Chicken?",
         "correct_answers":
         [
             "Asparagus",
@@ -852,7 +852,7 @@
     },
     {
         "name": "question47",
-        "question": "What deserts do we offer?",
+        "question": "What desserts do we offer?",
         "correct_answers":
         [
             "Carrot Cake",
