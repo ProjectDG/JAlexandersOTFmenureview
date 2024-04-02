@@ -22,17 +22,21 @@
     },
     {
         "name": "question2",
-        "question": "How much tuna do you get with the 'Ahi Tuna' dish?",
-        "correct_answers": "8 to 9 ounces",
-        "wrong_answers": [
-            "6 to 7 ounces",
-            "10 to 11 ounces",
-            "12 to 13 ounces",
-            "14 to 15 ounces",
-            "16 to 17 ounces",
-            "18 to 19 ounces"
+        "question": "What comes with the Spinach Con Queso?",
+        "correct_answers": [
+            "Pico De Gallo",
+            "Tortilla Chips"
         ],
-        "type": "multiple choice"
+        "wrong_answers": [
+            "Remoulade",
+            "Homemade Fennel Sausage",
+            "Classic Marinara",
+            "Parmesan",
+            "Cocktail Sauce",
+            "Hand-Cut Hawaiian Tuna",
+            "Crispy Wontons"
+        ],
+        "type": "select multiple"
     },
     {
         "name": "question3",
@@ -182,7 +186,7 @@
             "Fire-Grilled Artichokes"
         ],
         "wrong_answers": [
-            "Spinach con Queso",
+            "Spinach Con Queso",
             "Giuseppe's Meatballs",
             "Crispy Calamari",
             "Shrimp Cocktail",
@@ -194,31 +198,33 @@
         "name": "question12",
         "question": "What is included in Giuseppe's Meatballs?",
         "correct_answers": [
-            "Homemade Fennel sausage",
-            "parmesan",
-            "classic marinara"
+            "Homemade Fennel Sausage",
+            "Parmesan",
+            "Classic Marinara"
         ],
         "wrong_answers": [
-            "Ground beef",
-            "Mozzarella cheese",
-            "Alfredo sauce",
-            "Barbecue sauce",
+            "Ground Beef",
+            "Mozzarella Cheese",
+            "Alfredo Sauce",
+            "Barbecue Sauce",
             "Mushrooms"
         ],
         "type": "select multiple"
     },
     {
         "name": "question13",
-        "question": "What is served with the Avocado Bomb, besides hand-cut Hawaiian tuna?",
+        "question": "What is served with the Avocado Bomb?",
         "correct_answers": [
-            "Crispy wontons"
+            "Crispy Wontons",
+            "Hand-Cut Hawaiian Tuna"
         ],
         "wrong_answers": [
-            "Pico de gallo and tortilla chips",
-            "Rémoulade",
-            "Homemade Fennel sausage",
-            "Classic marinara",
-            "Cocktail sauce"
+            "Pico De Gallo",
+            "Tortilla Chips",
+            "Homemade Fennel Sausage",
+            "Classic Marinara",
+            "Parmesan",
+            "Cocktail Sauce"
         ],
         "type": "select multiple"
     },
@@ -230,15 +236,433 @@
             "Cheese",
             "Tomatoes",
             "Cucumbers",
-            "Rustic croutons"
+            "Croutons"
         ],
         "wrong_answers": [
-            "Olives",
-            "Cranberries",
+            "Reggiano",
+            "Iceberg Lettuce",
+            "Crispy Chicken",
+            "Pecans",
             "Avocado",
+            "Cornbread Croutons",
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Red Onions",
             "Peanuts"
         ],
         "type": "select multiple"
+    },
+    {
+        "name": "question15",
+        "question": "What is included with the Fire-Grilled Artichokes?",
+        "correct_answers": [
+            "Remoulade"
+        ],
+        "wrong_answers": [
+            "Pico De Gallo",
+            "Tortilla Chips",
+            "Homemade Fennel Sausage",
+            "Classic Marinara",
+            "Parmesan",
+            "Cocktail Sauce",
+            "Hand-Cut Hawaiian Tuna",
+            "Crispy Wontons"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question16",
+        "question": "What is included in the Crispy Calamari?",
+        "correct_answers": [
+            "Classic Marinara"
+        ],
+        "wrong_answers": [
+            "Remoulade",
+            "Pico De Gallo",
+            "Tortilla Chips",
+            "Homemade Fennel Sausage",
+            "Parmesan",
+            "Cocktail Sauce",
+            "Hand-Cut Hawaiian Tuna",
+            "Crispy Wontons"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question17",
+        "question": "What is served with the Shrimp Cocktail?",
+        "correct_answers": [
+            "Cocktail Sauce"
+        ],
+        "wrong_answers": [
+            "Pico De Gallo",
+            "Tortilla Chips",
+            "Homemade Fennel Sausage",
+            "Classic Marinara",
+            "Parmesan",
+            "Crispy Wontons",
+            "Hand-Cut Hawaiian Tuna"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question18",
+        "question": "What ingredients are in the Original Caesar Salad?",
+        "correct_answers": [
+            "Reggiano",
+            "Croutons"
+        ],
+        "wrong_answers": [
+            "Iceberg Lettuce",
+            "Crispy Chicken",
+            "Pecans",
+            "Avocado",
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Red Onions",
+            "Peanuts",
+            "Bacon",
+            "Cheese",
+            "Tomatoes",
+            "Cucumbers"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question19",
+        "question": "What ingredients are in The Wedge?",
+        "correct_answers": [
+            "Iceberg Lettuce",
+            "Bacon",
+            "Tomatoes"
+        ],
+        "wrong_answers": [
+            "Crispy Chicken",
+            "Pecans",
+            "Avocado",
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Red Onions",
+            "Peanuts",
+            "Cheese",
+            "Cucumbers",
+            "Reggiano",
+            "Croutons"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question20",
+        "question": "What ingredients are the Cypress Salad?",
+        "correct_answers": [
+            "Crispy Chicken",
+            "Croutons",
+            "Pecans",
+            "Avocado",
+            "Cheese",
+            "Bacon",
+            "Tomatoes"
+        ],
+        "wrong_answers": [
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Red Onions",
+            "Peanuts",
+            "Cucumbers",
+            "Reggiano",
+            "Iceberg Lettuce"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question21",
+        "question": "What ingredients are the Paradise Coast Kale Salad?",
+        "correct_answers": [
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Avocado",
+            "Croutons"
+        ],
+        "wrong_answers": [
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Red Onions",
+            "Peanuts",
+            "Cucumbers",
+            "Reggiano",
+            "Iceberg Lettuce",
+            "Crispy Chicken",
+            "Pecans",
+            "Cheese",
+            "Bacon",
+            "Tomatoes"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question22",
+        "question": "What ingredients are the Asian Ahi Tuna Salad?",
+        "correct_answers": [
+            "Seared Rare Tuna",
+            "Artisan Greens",
+            "Wasabi",
+            "Avocado",
+            "Red Onions"
+        ],
+        "wrong_answers": [
+            "Peanuts",
+            "Cucumbers",
+            "Reggiano",
+            "Iceberg Lettuce",
+            "Crispy Chicken",
+            "Pecans",
+            "Cheese",
+            "Bacon",
+            "Tomatoes",
+            "Roasted Chicken",
+            "Cranberries",
+            "Goat Cheese",
+            "Croutons"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question23",
+        "question": "What ingredients are the Thai Kai Salad?",
+        "correct_answers": [
+            "Roasted Chicken",
+            "Artisan Greens",
+            "Peanuts"
+        ],
+        "wrong_answers": [
+            "Cucumbers",
+            "Reggiano",
+            "Iceberg Lettuce",
+            "Crispy Chicken",
+            "Pecans",
+            "Cheese",
+            "Bacon",
+            "Tomatoes",
+            "Cranberries",
+            "Goat Cheese",
+            "Croutons",
+            "Seared Rare Tuna",
+            "Wasabi",
+            "Avocado",
+            "Red Onions"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question24",
+        "question": "What dressings are served with the Thai Kai Salad?",
+        "correct_answers": [
+            "Cilantro Vinaigrette",
+            "Thai Peanut Sauce"
+        ],
+        "wrong_answers": [
+            "Caesar Dressing",
+            "Classic Ranch",
+            "Honey Dijon",
+            "Vinigrette",
+            "Kiawah Island",
+            "Creamy Bleu Cheese",
+            "Guest Choice"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question25",
+        "question": "What dressing is served with Alex's Salad?",
+        "correct_answers":
+            "Guest Choice",
+        "wrong_answers": [
+            "Caesar Dressing",
+            "Classic Ranch",
+            "Honey Dijon",
+            "Vinigrette",
+            "Kiawah Island",
+            "Creamy Bleu Cheese",
+            "Cilantro Vinaigrette",
+            "Thai Peanut Sauce"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question26",
+        "question": "What dressing is served with The Wedge?",
+        "correct_answers":
+            "Creamy Bleu Cheese",
+        "wrong_answers": [
+            "Caesar Dressing",
+            "Classic Ranch",
+            "Honey Dijon",
+            "Vinigrette",
+            "Kiawah Island",
+            "Cilantro Vinaigrette",
+            "Thai Peanut Sauce",
+            "Guest Choice"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question27",
+        "question": "What dressing is served with the Cypress Salad?",
+        "correct_answers":
+            "Classic Ranch",
+        "wrong_answers": [
+            "Caesar Dressing",
+            "Honey Dijon",
+            "Vinigrette",
+            "Kiawah Island",
+            "Cilantro Vinaigrette",
+            "Thai Peanut Sauce",
+            "Guest Choice",
+            "Creamy Bleu Cheese"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question28",
+        "question": "What dressing is served with the Paradise Coast Kale Salad?",
+        "correct_answers":
+            "Vinigrette",
+        "wrong_answers": [
+            "Caesar Dressing",
+            "Honey Dijon",
+            "Kiawah Island",
+            "Cilantro Vinaigrette",
+            "Thai Peanut Sauce",
+            "Guest Choice",
+            "Creamy Bleu Cheese",
+            "Classic Ranch"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question29",
+        "question": "Do all Burgers & Sandwiches come with French Fries?",
+        "correct_answers":
+            "True",
+        "wrong_answers": 
+            "False",
+        "type": "boolean"
+    },
+    {
+        "name": "question30",
+        "question": "What side comes with the Slow Roasted Prime Rib?",
+        "correct_answers":
+        [
+            "Smashed Red Potatoes",
+            "Au Jus"
+        ],
+        "wrong_answers": [
+            "Loaded Baked Potato",
+            "Not Your Ordinary Mac & Cheese",
+            "French Fries"
+        ],
+        "type": "select multiple"
+    },
+    {
+        "name": "question31",
+        "question": "What side comes with the Steak & Fries?",
+        "correct_answers":
+            "French Fries",
+        "wrong_answers": [
+            "Loaded Baked Potato",
+            "Smashed Red Potatoes",
+            "Not Your Ordinary Mac & Cheese",
+            "Au Jus"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question32",
+        "question": "What side comes with the Filet Mignon with Bearnaise?",
+        "correct_answers":
+            "Loaded Baked Potato",
+        "wrong_answers": [
+            "French Fries",
+            "Smashed Red Potatoes",
+            "Not Your Ordinary Mac & Cheese",
+            "Au Jus"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question33",
+        "question": "What side comes with the Steak Maui?",
+        "correct_answers":
+            "Smashed Red Potatoes",
+        "wrong_answers": [
+            "French Fries",
+            "Loaded Baked Potato",
+            "Not Your Ordinary Mac & Cheese",
+            "Au Jus"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question34",
+        "question": "What side comes with the New York Strip?",
+        "correct_answers":
+            "Not Your Ordinary Mac & Cheese",
+        "wrong_answers": [
+            "French Fries",
+            "Loaded Baked Potato",
+            "Au Jus",
+            "Smashed Red Potatoes"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question35",
+        "question": "What side comes with the Surf & Turf?",
+        "correct_answers":
+            "Loaded Baked Potato",
+        "wrong_answers": [
+            "French Fries",
+            "Not Your Ordinary Mac & Cheese",
+            "Au Jus",
+            "Smashed Red Potatoes"
+        ],
+        "type": "multiple choice"
+    },
+    {
+        "name": "question36",
+        "question": "What side comes with the Grilled Trout Almadine?",
+        "correct_answers":
+        [
+            "Broccoli",
+            "Couscous"
+        ],
+        "wrong_answers": [
+            "French Fries",
+            "Chili Mayonnaise",
+            "Mustard Sauce",
+            "Asparagus",
+            "Orzo & Wild Rice",
+            "Rippened Tomatoes",
+            "Southern Cole Slaw"
+        ],
+        "type": "multiple choice"
     }
-    
 ]
